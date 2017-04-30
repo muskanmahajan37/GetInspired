@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--
+
+ ██████╗ ███████╗████████╗    ██╗███╗   ██╗███████╗██████╗ ██╗██████╗ ███████╗██████╗ ██╗
+██╔════╝ ██╔════╝╚══██╔══╝    ██║████╗  ██║██╔════╝██╔══██╗██║██╔══██╗██╔════╝██╔══██╗██║
+██║  ███╗█████╗     ██║       ██║██╔██╗ ██║███████╗██████╔╝██║██████╔╝█████╗  ██║  ██║██║
+██║   ██║██╔══╝     ██║       ██║██║╚██╗██║╚════██║██╔═══╝ ██║██╔══██╗██╔══╝  ██║  ██║╚═╝
+╚██████╔╝███████╗   ██║       ██║██║ ╚████║███████║██║     ██║██║  ██║███████╗██████╔╝██╗
+ ╚═════╝ ╚══════╝   ╚═╝       ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═════╝ ╚═╝
+                                                                                         
+
+-->
+<!-- Made with love by Vinit Shahdeo --> 
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Get Inspired</title>
+		<meta name="description" content="A chrome extension which shows a new quote in every 10 secons. It's just to inspire you." />
+		<meta name="keywords" content="Get Inspired, Inspirational quotes, Motivational quotes, daily quotes, inspiration, motivation" />
+		<meta name="author" content="Vinit Shahdeo" />
+		<link rel="shortcut icon" href="./favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/developer.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+        <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+		<script src="js/modernizr.custom.25376.js"></script>
+        <script src="quotes.json"></script>
+        <script src="test.js"></script>
+          
+		<style type="text/css">
+		body{
+			overflow-x: none;
+            overflow-y:auto;
+            
+            height:100%;
+            
+			}
+        #time{
+            font-weight:900;
+            font-size:40px;
+            }
+        #date_time{
+            font-weight: 800;
+            font-size: 20px;
+            opacity: 0.9;
+             color: #34495e;
+            }
+            #greeting{
+                font-weight:900;
+                color: #e86a32;
+            }
+            #message{
+                font-weight:500;
+                color: #34495e;
+                
+            }
+            #quote{
+                min-height: 220px;
+                color:#000000;
+                font-weight: 800;
+            }
+            #author{
+                opacity:0.5;
+            }
+            @media screen and (max-width: 25em) {
+
+                #quote{
+                    min-height: 80px;
+                }
+
+            }
+            @media screen and (max-width: 320px) {
+
+                #quote{
+                    min-height: 80px;
+                }
+
+            }
+        </style>  
+	</head>
+	<body>
+		<div id="perspective" class="perspective effect-moveleft">
+			<div class="container">
+                
+				<div class="wrapper">
+					<header class="codrops-header">
+                        <strong><h1 id="greeting">Good Morning</h1></strong><strong><h1 id="message"></h1></strong><h1><span>Get Inspired by our quotes!</span></h1>	
+					</header>
+					<div class="main clearfix">
+						<div class="column">
+							
+							<p><span id="quote">The best preparation for tomorrow is doing your best today!</span> <span id="author"> - H. Jackson Brown, Jr.</span></p>
+							<p><button id="showMenu">Work Hard</button></p>
+						</div>
+                        
+						<div class="column" >
+							<center><p id="date_time">DATE</p>
+                            <p id="time">DATE</p></center>
+                        <p >   <span>
+    Made with  <i class="fa fa-heart pulse"></i> by <a href="http://vinitshahdeo.com/" target="_blank">Vinit Shahdeo</a></span></p>
+ 
+<div class='socialicons'>
+  <div class='icon social fb'><a href="https://www.facebook.com/" target="_blank"><i class='fa fa-facebook'></i></a></div>
+  <div class='icon social tw'><a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><i class='fa fa-twitter'></i></a></div>
+  <div class='icon social in'><a href="https://www.linkedin.com/in/vinitshahdeo/" target="_blank"><i class='fa fa-linkedin' ></i></a></div>
+</div>  
+
+						</div>
+                        
+					</div><!-- /main -->
+                    
+                    <a target="_blank" href="#"><center><img src="tryitnowbutton.png" ></center></a>
+				</div><!-- wrapper -->
+			</div><!-- /container -->
+                       
+
+			<nav class="outer-nav right vertical">
+				<a href="https://github.com/vinitshahdeo" class="icon-home" target="_blank">Github</a>
+				<a href="https://www.hackerrank.com/vinitshahdeo" class="icon-news" target="_blank">Hackerrank</a>
+				<a href="https://www.w3schools.com/" class="icon-image" target="_blank">W3Schools</a>
+				<a href="https://vtop.vit.ac.in/" class="icon-upload" target="_blank">VTOP Login</a>
+				<a href="http://tutorialspoint.com/" class="icon-star" target="_blank">Tutorials Point</a>
+				<a href="http://stackoverflow.com/" class="icon-mail" target="_blank">Stack Overflow</a>
+				<a href="http://www.geeksforgeeks.org/" class="icon-lock" target="_blank">Geeks for Geeks</a>
+			</nav>
+      
+
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
+
+<!--- Develped By 
+
+ ██▒   █▓ ██▓ ███▄    █  ██▓▄▄▄█████▓     ██████  ██░ ██  ▄▄▄       ██░ ██ ▓█████▄ ▓█████  ▒█████  
+▓██░   █▒▓██▒ ██ ▀█   █ ▓██▒▓  ██▒ ▓▒   ▒██    ▒ ▓██░ ██▒▒████▄    ▓██░ ██▒▒██▀ ██▌▓█   ▀ ▒██▒  ██▒
+ ▓██  █▒░▒██▒▓██  ▀█ ██▒▒██▒▒ ▓██░ ▒░   ░ ▓██▄   ▒██▀▀██░▒██  ▀█▄  ▒██▀▀██░░██   █▌▒███   ▒██░  ██▒
+  ▒██ █░░░██░▓██▒  ▐▌██▒░██░░ ▓██▓ ░      ▒   ██▒░▓█ ░██ ░██▄▄▄▄██ ░▓█ ░██ ░▓█▄   ▌▒▓█  ▄ ▒██   ██░
+   ▒▀█░  ░██░▒██░   ▓██░░██░  ▒██▒ ░    ▒██████▒▒░▓█▒░██▓ ▓█   ▓██▒░▓█▒░██▓░▒████▓ ░▒████▒░ ████▓▒░
+   ░ ▐░  ░▓  ░ ▒░   ▒ ▒ ░▓    ▒ ░░      ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒ ░░▒░▒ ▒▒▓  ▒ ░░ ▒░ ░░ ▒░▒░▒░ 
+   ░ ░░   ▒ ░░ ░░   ░ ▒░ ▒ ░    ░       ░ ░▒  ░ ░ ▒ ░▒░ ░  ▒   ▒▒ ░ ▒ ░▒░ ░ ░ ▒  ▒  ░ ░  ░  ░ ▒ ▒░ 
+     ░░   ▒ ░   ░   ░ ░  ▒ ░  ░         ░  ░  ░   ░  ░░ ░  ░   ▒    ░  ░░ ░ ░ ░  ░    ░   ░ ░ ░ ▒  
+      ░   ░           ░  ░                    ░   ░  ░  ░      ░  ░ ░  ░  ░   ░       ░  ░    ░ ░  
+     ░                                                                      ░                      
+
+Thank You -->
+    
+</html>
