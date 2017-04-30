@@ -1,0 +1,402 @@
+data = '[
+   {
+      "saying":"Whatever you are, be a good one.",
+      "author":"Abraham Lincoln"
+   },
+ {
+      "saying":"If you dream it, you can do it.",
+      "author":"Walt Disney"
+   },
+ {
+      "saying":"Never, never, never give up.",
+      "author":"Winston Churchill"
+   },
+ {
+      "saying":"Don’t wait. The time will never be just right.",
+      "author":"Napoleon Hill"
+   },
+ {
+      "saying":"Everything you can imagine is real.",
+      "author":"Pablo Picasso"
+   },
+ {
+      "saying":"I can, therefore I am.",
+      "author":"Simone Weil"
+   },
+ {
+      "saying":"Turn your wounds into wisdom.",
+      "author":"Oprah Winfrey"
+   },
+ {
+      "saying":"Wherever you go, go with all your heart.",
+      "author":"Confucius"
+   },
+ {
+      "saying":"Hope is a waking dream.",
+      "author":"Aristotle"
+   },
+ {
+      "saying":"Action is the foundational key to all success.",
+      "author":"Pablo Picasso"
+   },
+ {
+      "saying":"Do one thing every day that scares you.",
+      "author":"E. Roosevelt"
+   },
+ {
+      "saying":"Life is trying things to see if they work.",
+      "author":"Ray B."
+   },
+ {
+      "saying":"Don’t regret the past, just learn from it.",
+      "author":"Ben Ipock"
+   },
+ {
+      "saying":"Live what you love.",
+      "author":"Jo Deurbrouck"
+   },
+ {
+      "saying":"A jug fills drop by drop.",
+      "author":"Buddha"
+   },
+{
+      "saying":"The obstacle is the path.",
+      "author":"Zen Proverb"
+   },
+{
+      "saying":"Hope is the heartbeat of the soul.",
+      "author":"Michelle Horst"
+   },
+{
+      "saying":"Men are born to succeed, not fail.",
+      "author":"Henry David"
+   },
+{
+      "saying":"Everything happens for a reason.",
+      "author":"Unknown"
+   },
+{
+      "saying":"Live each day as if it’s your last.",
+      "author":"Unknown"
+   },
+{
+      "saying":"Try and fail, but never fail to try.",
+      "author":"Jared Leto"
+   },
+   {
+      "saying":"Leaders don\'t create followers, they create more leaders.",
+      "author":"Tom Peters"
+   },
+   {
+      "saying":"Quiet people have the loudest minds.",
+      "author":"English Proverb"
+   },
+   {
+      "saying":"A day without laughter is a day wasted.",
+      "author":"Charlie Chaplin"
+   },
+   {
+      "saying":"You don\'t need a reason to help someone.",
+      "author":"Proverb"
+   },
+   {
+      "saying":"Do it with passion or not at all.",
+      "author":"Proverb"
+   },
+   {
+      "saying":"An obstacle is often a stepping stone.",
+      "author":"Prescott"
+   },
+   {
+      "saying":"Everyday is a second chance.",
+      "author":"Proverb"
+   },
+   {
+      "saying":"Be where your feet are.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Life is full of choices and I choose happiness.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Attitude is a little thing that makes a big difference.",
+      "author":"W. Churchill"
+   },
+   {
+      "saying":"Live each day as if your life had just begun.",
+      "author":"J. Goethe"
+   },
+   {
+      "saying":"Defeat is not bitter unless you swallow it.",
+      "author":"Joe Clark"
+   },
+   {
+      "saying":"We become what we think about.",
+      "author":"Earl Nightingale"
+   },
+   {
+      "saying":"Don\'t call it a dream, call it a plan.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"The less you know, the more you believe.",
+      "author":"Bono"
+   },
+   {
+      "saying":"This is your world. Shape it or someone else will.",
+      "author":"Gary Lew"
+   },
+   {
+      "saying":"You are what you believe yourself to be.",
+      "author":"Paulo Coelho"
+   },
+   {
+      "saying":"When you feel like quitting, think about why you started.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"You did not wake up today to be mediocre.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Hard work beats talent when talent doesn\'t work hard.",
+      "author":"Tim Notke"
+   },
+   {
+      "saying":"You are capable of more than you know.",
+      "author":"E.O. Wilson"
+   },
+   {
+      "saying":"You learn something everyday if you pay attention.",
+      "author":"Ray Le Blond"
+   },
+   {
+      "saying":"It is never too late to be what you might have been.",
+      "author":"George Eliot"
+   },
+   {
+      "saying":"Turn your setback into comeback.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Limits exist only in the mind.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Stop wishing. Start doing.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Do it now. Sometimes LATER becomes NEVER.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Strive for progress, not perfection.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"It won\'t be easy, but it\'ll be worth it.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Don\'t let yesterday take up too much of today.",
+      "author":"Will Rogers"
+   },
+   {
+      "saying":"Choose to be optimistic, it feels better.",
+      "author":"Dalai Lama"
+   },
+   {
+      "saying":"Make a wish. Take a chance. Make a change.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Beauty begins the moment you decide to be yourself.",
+      "author":"Coco Chanel"
+   },
+   {
+      "saying":"Be in love with your life. Every minute of it.",
+      "author":"Jack Kerouac"
+   },
+   {
+      "saying":"Dreams and dedication are a powerful combination.",
+      "author":"W. Longgood"
+   },
+   {
+      "saying":"Never let go of your dreams.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Winning isn\'t everything, but wanting to win is.",
+      "author":"Vince Lombardi"
+   },
+   {
+      "saying":"There is no success like failure.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"If opportunity doesn\'t knock, Build a door.",
+      "author":"Milton Berley"
+   },
+   {
+      "saying":"The best revenge is massive success.",
+      "author":"Frank Sinatra"
+   },
+   {
+      "saying":"If not us, who? If not now, when?",
+      "author":"John F. Kennedy"
+   },
+   {
+      "saying":"I can and I will!",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"If it doesn\'t open, it\'s not your door.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Why fit in when you were born to stand out?",
+      "author":"Dr. Suess"
+   },
+   {
+      "saying":"One day or day one. You decide.",
+      "author":"Anonymous"
+   },
+   {
+      "saying":"Every moment is a fresh begining.",
+      "author":"T.S. Eliot"
+   },
+   {
+      "saying":"Believe you can and you’re halfway there.",
+      "author":"T. Roosevelt"
+   },
+   {
+      "saying":"Fall seven times and stand up eight.",
+      "author":"Japanese Proverb"
+   },
+   {
+      "saying":"Dream big and dare to fail.",
+      "author":"Norman Vaughan"
+   },
+   {
+      "saying":"Change your thoughts and you change your world.",
+      "author":"N. V. Peale"
+   },
+   {
+      "saying":"If you can dream it, you can achieve it.",
+      "author":"Zig Ziglar"
+   },
+   {
+      "saying":"Opportunities don\'t happen. You create them.",
+      "author":"Chris Grosser"
+   },
+   {
+      "saying":"Imperfections make you more beautiful.",
+      "author":"Beyonce"
+   },
+   {
+      "saying":"The future depends on what we do in the present",
+      "author":"Mahatma Gandhi"
+   },
+   {
+      "saying":"Don\'t hope for it, work for it.",
+      "author":"English Saying"
+   },
+   {
+      "saying":"Happiness is a journey, not a destination.",
+      "author":"Ben Sweetland"
+   },
+{
+      "saying":"None but ourselves can free our minds.",
+      "author":"Bob Marley"
+   },
+{
+      "saying":"Success comes in cans, failure in can\’ts.",
+      "author":"Wilfred Peterson"
+   },
+{
+      "saying":"Preparation is the key to success.",
+      "author":"Alexander Graham Bell"
+   },
+{
+      "saying":"It is wiser to find out than to suppose.",
+      "author":"Mark Twain"
+   },
+{
+      "saying":"The journey is the reward.",
+      "author":"Chinese Proverb"
+   },
+{
+      "saying":"The expert in anything was once a beginner.",
+      "author":"Unknown"
+   },
+{
+      "saying":"Fortune sides with him who dares.",
+      "author":"Virgil"
+   },
+{
+      "saying":"Even Einstein asked questions.",
+      "author":"Unknown"
+   },
+{
+      "saying":"Chance favors the prepared mind.",
+      "author":"Pasteur"
+   },
+{
+      "saying":"Quality is not an act, it is a habit.",
+      "author":"Aristotle"
+   },
+{
+      "saying":"Creativity Is Intelligence Having Fun.",
+      "author":"Albert Einstein"
+   },
+{
+      "saying":"Don\'t stop until you\'re proud.",
+      "author":"Unknown"
+   },
+{
+      "saying":"The starting point of all achievement is desire.",
+      "author":"Napoleon Hill"
+   },
+{
+      "saying":"Worry less. Smile more.",
+      "author":"Unknown"
+   },
+{
+      "saying":"Make today so awesome that yesterday gets jealous.",
+      "author":"Unknown"
+   },
+{
+      "saying":"Mistakes are proof that you are trying.",
+      "author":"Unknown"
+   },
+{
+      "saying":"Impossible is just an opinion.",
+      "author":"Paulo Coelho"
+   },
+{
+      "saying":"Make each day your masterpiece.",
+      "author":"Unknown"
+   },
+   {
+      "saying":"Nothing is interesting if you are not interested.",
+      "author":"Helen Clark Maclnnes"
+   },
+   {
+      "saying":"Once you choose hope, anything is possible.",
+      "author":"Christopher Reeve"
+   },
+   {
+      "saying":"To a great mind, nothing is little.",
+      "author":"Arthur Conan Doyle"
+   },
+   {
+      "saying":"Your best teacher is your last mistake.",
+      "author":"Ralph Nader"
+   },
+   {
+      "saying":"Speak only if it improves upon the silence.",
+      "author":"Mahatma Gandhi"
+   }
+]';
