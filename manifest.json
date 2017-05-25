@@ -4,9 +4,10 @@
   "version": "1.1",
   "description": "Get a new quote each minutes! It is just to inspire you.",
   "icons": { "128": "quotes_icon.png" },
+    
     "background": {
-    "persistent": false,
-    "scripts": ["test.js"]
+    "persistent": true,
+    "scripts": ["test.js","background.js"]
   },
   "browser_action": {
     "default_title": "Get Inspired!",
@@ -15,8 +16,12 @@
   },
     
   "permissions": [
-    "tabs",
-    "http://www.google.com/*"
+     "webRequestBlocking",
+     "webRequest",
+     "activeTab",
+     "tabs",
+     "http://*/*",
+     "https://*/*"
   ],
   "manifest_version": 2
 }
